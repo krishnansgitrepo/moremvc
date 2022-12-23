@@ -36,7 +36,6 @@ public class PaymentController {
     private void initBinder(WebDataBinder binder) {
         StringTrimmerEditor stringTrimmerEditor = new StringTrimmerEditor(true);
         binder.registerCustomEditor(String.class, "name", stringTrimmerEditor);
-
     }
 
 
